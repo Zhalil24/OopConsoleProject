@@ -22,6 +22,5 @@ namespace OppOdev1
 
         public bool IsAdmin { get; set; }
 
-
     }
 }

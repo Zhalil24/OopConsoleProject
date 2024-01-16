@@ -16,9 +16,6 @@ namespace ConsoleApp
             Console.Write("Telefon: ");
             string telefon = ReadNotNullInput();
 
-
-
-
             while (!IsValidTelefon(telefon,userAction))
             {
                 Console.WriteLine("Hata: Başında sıfır ile tuşladınız veya daha önce kullanılmış bir telefon numarası girdiniz.");
